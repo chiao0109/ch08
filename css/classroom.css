@@ -1,0 +1,38 @@
+body{
+    font-family: Microsoft JhengHei;
+}
+#banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),url(../images/bg02.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 50vh;
+}
+#banner >.row{
+    height: 50vh;
+}
+#content{
+    background-color: #1b1b1b;   
+}
+#content h4{
+    color: #dc3545;
+}
+.row .col-lg:nth-child(1){
+    background-color: rgba(0, 0, 0, 0.035);
+}
+.row .col-lg:nth-child(2){
+    background-color: rgba(0, 0, 0, 0.07);
+}
+.row .col-lg:nth-child(3){
+    background-color: rgba(0, 0, 0, 0.105);
+}
+.row .col-lg:nth-child(5){
+    background-color: rgba(0, 0, 0, 0.14);
+}
+.row .col-lg:nth-child(6){
+    background-color: rgba(0, 0, 0, 0.175);
+}
+.row .col-lg:nth-child(7){
+    background-color: rgba(0, 0, 0, 0.21);
+}
